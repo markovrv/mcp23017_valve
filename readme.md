@@ -79,6 +79,17 @@ After installation:
 ## Example Automations
 
 ```yaml
+
+switch:
+  - platform: mcp23017_valve
+    i2c_address: 0x20
+    relay_open_time: 6
+    valves:
+      - name: "Кран 1"
+        open_relay: 1
+        close_relay: 8
+
+
 automation:
   - alias: "Close all valves at night"
     trigger:

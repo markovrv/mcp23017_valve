@@ -1,3 +1,3 @@
 DOMAIN = "mcp23017_valve"
 DEFAULT_I2C_ADDRESS = 0x20
-DEFAULT_RELAY_OPEN_TIME = 6  # Время удержания реле (секунды)
+DEFAULT_RELAY_OPEN_TIME = 6
