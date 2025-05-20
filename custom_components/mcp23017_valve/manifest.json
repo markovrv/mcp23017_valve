@@ -1,0 +1,11 @@
+{
+  "domain": "mcp23017_valve",
+  "name": "MCP23017 Water Valve",
+  "version": "1.0.0",
+  "documentation": "https://github.com/markovrv/mcp23017_valve",
+  "issue_tracker": "https://github.com/markovrv/mcp23017_valve/issues",
+  "codeowners": ["@markovrv"],
+  "requirements": ["smbus2==1.4.1"],
+  "iot_class": "local_polling",
+  "config_flow": true
+}
